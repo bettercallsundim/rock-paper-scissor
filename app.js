@@ -32,23 +32,6 @@ function botchoosing(leuser){
     botchose.innerHTML=`Bot chose: ${bot[theNumber].dataset.what}`;
     verdiction(leuser,botSelected);
 }
-// function verdiction(leuser,lebot){
-//     if(leuser===lebot){
-//         verdict.innerHTML='Draw';
-//     }else if(leuser==='rock' && lebot==='paper'){
-//         verdict.innerHTML='Bot Win';
-//     }else if(leuser==='rock' && lebot==='scissor'){
-//         verdict.innerHTML='You Win';
-//     }else if(leuser==='scissor' && lebot==='paper'){
-//         verdict.innerHTML='You Win';
-//     }else if(leuser==='scissor' && lebot==='rock'){
-//         verdict.innerHTML='Bot Win';
-//     }else if(leuser==='paper' && lebot==='rock'){
-//         verdict.innerHTML='You Win';
-//     }else if(leuser==='paper' && lebot==='scissor'){
-//         verdict.innerHTML='Bot Win';
-//     }
-// }
 
 function verdiction(leuser,lebot){
     if(leuser===lebot){
