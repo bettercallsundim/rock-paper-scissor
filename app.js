@@ -21,7 +21,7 @@ function mainfunc(){
     this.classList.add('active');
     uchose.innerHTML=`You chose: ${this.dataset.what}`;
     const userSelected=this.dataset.what;
-    botchoosing(userSelected);
+    setTimeout(botchoosing, 1000);
 
 }
 
