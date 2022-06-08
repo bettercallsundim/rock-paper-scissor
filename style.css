@@ -1,0 +1,19 @@
+.user .img-fluid:hover{
+    outline: 2px solid crimson !important;
+    outline-offset: 2px;
+    border: 2px solid crimson !important;
+}
+/* .itembhai .img-fluid:nth-of-type(2):hover{
+    outline: 2px solid greenyellow !important;
+    outline-offset: 2px;
+    border: 2px solid greenyellow !important;
+} */
+.itembhai .img-fluid{
+    width: 100px;
+    height: 100px;
+}
+.active{
+    outline: 2px solid greenyellow !important;
+    outline-offset: 2px;
+    border: 2px solid greenyellow !important;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.bundle.min.js" integrity="sha512-ndrrR94PW3ckaAvvWrAzRi5JWjF71/Pw7TlSo6judANOFCmz0d+0YE+qIGamRRSnVzSvIyGs4BTtyFMm3MT/cg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+
+<div class="mainCont w-100 bg-dark text-white vh-100">
+    <div class="container h-100 d-flex align-items-center justify-content-center flex-column">
+        <div class="game  row gap-4 flex-shrink-0 flex-grow-1 d-flex align-items-center justify-content-center " style="height:80vh ;">
+            <!-- user--- -->
+            <div class="col-4 flex-shrink-0 flex-grow-1" ">
+                <h1>User :</h1>
+                <div class="d-flex h-100 user itembhai flex-shrink-0 flex-grow-1 gap-4">
+                    <div class="img-fluid bg-white rounded-circle d-flex align-items-center justify-content-center " data-what="rock">
+                        <img src="./img/rock.png" alt="">
+                    </div>
+                    <div class="img-fluid  bg-white rounded-circle d-flex align-items-center justify-content-center " data-what="paper">
+                        <img src="./img/paper.png" alt="">
+                    </div>
+                    <div class="img-fluid  bg-white rounded-circle d-flex align-items-center justify-content-center " data-what="scissor">
+                        <img src="./img/scissor.png" alt="">
+                    </div>
+                </div>
+                <h3 class="mt-5 uchose">You Chose:</h3>
+            </div>
+
+
+
+
+
+
+            <!-- ---bot----- -->
+            <div class="col-4 flex-shrink-0 flex-grow-1" ">
+                <h1>Bot :</h1>
+                <div class="d-flex h-100 bot itembhai flex-shrink-0 flex-grow-1 gap-4">
+                    <div class="img-fluid bg-white rounded-circle d-flex align-items-center justify-content-center " data-what="rock">
+                        <img src="./img/rock.png" alt="">
+                    </div>
+                    <div class="img-fluid  bg-white rounded-circle d-flex align-items-center justify-content-center " data-what="paper">
+                        <img src="./img/paper.png" alt="">
+                    </div>
+                    <div class="img-fluid  bg-white rounded-circle d-flex align-items-center justify-content-center " data-what="scissor">
+                        <img src="./img/scissor.png" alt="">
+                    </div>
+                </div>
+                <h3 class="mt-5 botchose">Bot Chose:</h3>
+            </div>
+        </div>
+
+
+
+
+
+<!-- ------------verdict----------------  -->
+        <div class="row">
+            <div class="col">
+                <h1 class="verdict">you lose</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
